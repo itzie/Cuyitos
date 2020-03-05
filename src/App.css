@@ -5,11 +5,29 @@ body {
     sans-serif;
 }
 
+/* @font-face {
+  font-family: 'Segoe Script Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Script Regular'), url('../public/Segoe-Script.woff') format('woff');
+} */
+
 .container {
   margin: 72px auto 0 auto;
   max-width: 1600px;
 }
 .Title {
-  font-family : "Segoe Script";
+  font-family : "Segoe Script Regular";
   font-size: xx-large;
+  color: #7E541C;
+}
+
+.MuiToolbar-root {
+  background: #FFE7C7
+}
+.MuiIconButton-label {
+  color: #7E541C;
+}
+.MuiButton-label {
+  color: #707070;
 }
